@@ -45,4 +45,4 @@ jobs:
         with:
           images: hassegawa/rotten-potatoes:${{ github.run_number }}
           manifests: |
-            k8s/deplyment.yaml
+            k8s/deployment.yaml
